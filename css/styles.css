@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 70%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* ========================================================================================== */
+/* =================================== Banner CSS =========================================== */
+#banner {
+  background: url(../images/header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #fff;
+}
+.title {
+  margin-bottom: 100px;
+}
+.title h1 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.subtitle {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.subtitle-1,
+.subtitle-2 {
+  max-width: 260px;
+  text-transform: capitalize;
+}
+.subtitle .subhead {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.subtitle p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.subtitle i {
+  font-size: 40px;
+  color: #f1c50e;
+}
+/* =================================== Banner CSS =========================================== */
+/* =================================== Feature CSS =========================================== */
+#feature {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  color: #fff;
+  background-color: #141824;
+}
+.highlight {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-top: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+  text-align: center;
+}
+.highlight i {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.highlight h1 {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.highlight p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.feature-main {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.head-style {
+  background-color: #f1c50e;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.span-style {
+  background-color: #141824;
+  display: inline-block;
+}
+.feature-item h3 {
+  margin-bottom: 20px;
+}
+.feature-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* =================================== Feature CSS =========================================== */
+/* =================================== Booking CSS =========================================== */
+#booking {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e8eae3;
+}
+.booking-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+.booking-text i {
+  font-size: 60px;
+  color: #f1c50e;
+  padding-bottom: 20px;
+  margin-top: 55px;
+}
+.booking-text h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.booking-text .span-style {
+  background-color: #e8eae3;
+}
+.booking-text p {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #2b4045;
+  margin-bottom: 30px;
+}
+.booking-text a {
+  padding: 10px 20px;
+  background-color: #141824;
+  color: #fff;
+}
+/* =================================== Booking CSS =========================================== */
+/* =================================== Testimonial CSS =========================================== */
+#testimonial {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #141824;
+  color: #fff;
+}
+.testimonial-name {
+  padding-top: 25px;
+}
+/* =================================== Testimonial CSS =========================================== */
+/* =================================== Gallery CSS =========================================== */
+.gallery {
+  display: flex;
+}
+.gal-item {
+  width: 25%;
+}
+.gal-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* =================================== Gallery CSS =========================================== */
+/* =================================== Sign-Up CSS =========================================== */
+#signup {
+  padding: 100px 0;
+  background-color: #e8eae3;
+}
+.sign-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+.sign-text h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 60px;
+}
+.sign-text .span-style {
+  background-color: #e8eae3;
+}
+.sign-text p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #111111;
+}
+.subtext {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+.sign-subtext h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.sign-subtext i {
+  font-size: 35px;
+  padding-bottom: 20px;
+  color: #f1c50e;
+}
+/* =================================== Sign-Up CSS =========================================== */
+/* =================================== Footer CSS =========================================== */
+#footer {
+  padding: 100px 0;
+  background-color: #141824;
+  color: #fff;
+}
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+.footer-contact {
+  width: 85%;
+}
+.footer-icon {
+  position: relative;
+  color: #ffb600;
+  margin-bottom: 75px;
+}
+.icon1 {
+  position: absolute;
+  font-size: 50px;
+  left: 0;
+  top: 0;
+}
+.icon2 {
+  position: absolute;
+  font-size: 35px;
+  left: 12px;
+  top: -8px;
+}
+.footer-contact h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.footer-contact p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+address {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.direction {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.social i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ffb600;
+}
+.social i:hover {
+  transform: scale(0.9);
+  transition: all linear 0.1s;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+.footer-form {
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-form .form-name,
+.contact-form .form-email,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #b3b3b3;
+  background-color: #141824;
+}
+.contact-form input textarea::placeholder {
+  color: #b3b3b3;
+}
+.input-btn {
+  background-color: #e8eae3;
+  padding: 10px 20px;
+  color: #111111;
+  border: none;
+  cursor: pointer;
+}
+.input-btn:hover {
+  transform: scale(0.98);
+  transition: all linear 0.4s;
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+/* =================================== Footer CSS =========================================== */
+/* ==================================== Responsive Design ================================== */
+@media only screen and (max-width: 480px) {
+  #banner {
+    padding: 60px 0;
+  }
+  .title h1 {
+    font-size: 35px;
+  }
+  .subtitle {
+    grid-template-columns: 1fr;
+  }
+  .subtitle-1 {
+    padding-bottom: 20px;
+  }
+  .highlight {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .highlight h1 {
+    font-size: 20px;
+  }
+  .highlight p {
+    font-size: 14px;
+    line-height: 2;
+  }
+  .feature-main {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  #booking {
+    padding-top: 0;
+  }
+  .booking-main {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .booking-text h2 {
+    font-size: 25px;
+  }
+  #signup {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .sign-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .sign-text h2 {
+    font-size: 25px;
+  }
+  .subtext {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  #footer {
+    padding: 50px 0;
+  }
+  .footer-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* ==================================== Responsive Design ================================== */
